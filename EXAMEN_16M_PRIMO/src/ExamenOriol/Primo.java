@@ -14,7 +14,12 @@ public class Primo {
 		
 		
 		numPrimo=ent.nextInt();
-	
+		
+		if(numPrimo%2==1) {
+			System.out.println("es primo");
+		}else {
+			System.out.println("no es primo");
+		}
 		
 	}
 }
